@@ -1,4 +1,10 @@
 #include<stdio.h>
+/**
+ *
+ * main function print
+ *
+ * return 0
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,"\");
