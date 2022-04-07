@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *main - entry point
- *my hello, printf
- *return: return t after execution
+ *test ngure
+ *Return: 0 afterntin
  */
 int main(void)
 {
