@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char ngure = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	int ngure = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 	putchar(ngure);
 
