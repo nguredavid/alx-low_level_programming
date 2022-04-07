@@ -1,5 +1,5 @@
 #!/bin/bash
-#include<stdio.h>
+#include <stdio.h>
 /**
  * 
  * Return 0; after printing the function
