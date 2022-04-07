@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- *main - entry point
- *test ngure
- *Return: 0 afterntin
+ * main - print the value
+ * Return: returns 0 as the outcomes
  */
 int main(void)
 {
