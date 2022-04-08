@@ -4,6 +4,7 @@
  * Return: reverse output
  */
 int main(void)
+
 {
 	char rev;
 
@@ -11,6 +12,6 @@ int main(void)
 	{
 		putchar(rev);
 	}
-i	putchar('\n');
+	putchar('\n');
 	return (0);
 }
