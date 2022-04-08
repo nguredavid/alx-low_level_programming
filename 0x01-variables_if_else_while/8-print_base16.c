@@ -1,16 +1,21 @@
 #include <stdio.h>
 /**
- *  * main - entry pt
- *   * Return: reverse output
- *    */
+ * main - entry pt
+ * Return: reverse output
+ */
 int main(void)
 {
-	        char rev;
+	char alph;
+	int num;
 
-		 for (rev = 'z'; rev >= 'a'; rev--) 
-		 {
-		 putchar(rev);
-		 }
-	 	putchar('\n');
-	 	return (0);
+	for (alph = 'a'; alph <= 'f'; alph++)
+	{
+		putchar(alph);
+	}
+	for (num = 0; num < 10; num++
+		{
+	    putchar((num % 10) + '0');
+		}
+		return (0);
+
 }
