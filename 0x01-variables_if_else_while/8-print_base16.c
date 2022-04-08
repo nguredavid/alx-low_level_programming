@@ -1,21 +1,22 @@
 #include <stdio.h>
 /**
- * main - entry pt
- * Return: reverse output
+ * main - main Function
+ * Return: 0
  */
 int main(void)
 {
-	char alph;
-	int num;
+		char c;
+		int i;
 
-	for (alph = 'a'; alph <= 'f'; alph++)
-	{
-		putchar(alph);
-	}
-	for (num = 0; num < 10; num++
+		for (i = 0; i < 10; i++)
 		{
-	    putchar((num % 10) + '0');
+			putchar(i + '0');
 		}
-		return (0);
+		for (c = 'a'; c < 'g'; c++)
+		{
+			putchar(c);
+		}
+			putchar('\n');
 
+			return (0);
 }
