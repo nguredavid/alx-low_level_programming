@@ -13,7 +13,7 @@ int main(void)
 		continue;
 		else if (alph == 'q')
 		continue;
-	{
+
 	putchar(alph);
 	}
 
