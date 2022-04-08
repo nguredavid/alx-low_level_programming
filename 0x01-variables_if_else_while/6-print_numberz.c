@@ -7,7 +7,7 @@ int main(void)
 {
 	int num;
 
-	for (num = 48 ; num <= 57; num++)
+	for (num = 18 ; num <= 27; num++)
 	{
 		putchar(num);
 	}
