@@ -7,7 +7,7 @@ int main(void)
 {
 	int dgt;
 
-	for (dgt = 0; dgt >= 0; dgt++)
+	for (dgt = 0; dgt >= 10; dgt++)
 	{
 	printf("%i \n", dgt);
 	}
