@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - entry pt
- *
  * Return: outputs
  */
 int main(void)
