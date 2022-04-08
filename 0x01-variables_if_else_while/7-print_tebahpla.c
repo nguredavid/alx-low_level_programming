@@ -4,7 +4,6 @@
  * Return: reverse output
  */
 int main(void)
-
 {
 	char rev;
 
