@@ -4,8 +4,9 @@
  * Return: outputs
  */
 int main(void)
+
 {
-		int dgt; 
+		int dgt;
 
 		for (dgt = 0; dgt <= 9; dgt++)
 		{
