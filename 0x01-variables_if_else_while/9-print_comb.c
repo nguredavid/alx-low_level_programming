@@ -6,7 +6,7 @@
 int main(void)
 
 {
-		int dgt; 
+		int dgt;
 
 		for (dgt = 0; dgt <= 9; dgt++)
 		{
@@ -14,7 +14,7 @@ int main(void)
 			if (dgt == 9)
 				continue;
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 
 		putchar('\n');
