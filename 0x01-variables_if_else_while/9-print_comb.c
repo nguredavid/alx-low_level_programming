@@ -4,6 +4,7 @@
  * Return: outputs
  */
 int main(void)
+
 {
 		int dgt; 
 
