@@ -3,7 +3,7 @@
  * print_alphabet_x10 - entry pt
  * Return: always o
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int a;
 	char alp;
