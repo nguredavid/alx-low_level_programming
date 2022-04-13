@@ -12,10 +12,9 @@ int main(void)
 
 	i = 0;
 
-	/**
+	/*
 	 * while (i < 10)
 	 * {
-	 * i
 	 * infinite loop - no increase of variable
 	 * putchar(i);
 	}
