@@ -1,8 +1,8 @@
 include "holberton.h"
 /**
  * print_diagonal - function that draws a diagonal line on the terminal.
- * @n - the int for the paramaters of my function
- * Return: 0
+ * @n: the int for the paramaters of my function
+ * Description: can only use put char 0
  */
 void print_diagonal(int n)
 {
