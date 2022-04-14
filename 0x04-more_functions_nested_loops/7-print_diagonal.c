@@ -6,24 +6,23 @@ include "holberton.h"
  */
 void print_diagonal(int n)
 {
-	int a = 0;
-	int b = 0;
+	int c, i;
 
-	if (n > 0)
+	c = 0;
+
+	while (n > 0)
 	{
-		while (a < n)
+		i = c;
+		while (i > 0)
 		{
-			while (b < a)
-			{
-																									_putchar(' ');
-																									b++;
-																								}
-			a++;
-																						b = 0;
-																						_putchar('\\');
-																						_putchar('\n');
-																						}
+			_putchar(' ');
+			i--;
+		}
+		_putchar('\\');
+		_putchar('\n');
+		c++;
+		n--;
 	}
-	else
-	_putchar('\n');
+	if (c < 1)
+		_putchar('\n');
 }
