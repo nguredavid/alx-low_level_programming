@@ -2,27 +2,29 @@ include "holberton.h"
 /**
  * print_diagonal - function that draws a diagonal line on the terminal.
  * @n: the int for the paramaters of my function
- * Description: can only use put char 0
+ * Return: 0
  */
 void print_diagonal(int n)
 {
-	int c, i;
+	int a = 0;
+	int b = 0;
 
-	c = 0;
 
-	while (n > 0)
+	if (n > 0)
 	{
-		i = c;
-		while (i > 0)
+		while (a < n)
 		{
-			_putchar(' ');
-			i--;
+			while (b < a)
+			{
+				_putchar(' ');
+				b++;
+			}
+			a++;
+			b = 0;
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
-		c++;
-		n--;
 	}
-	if (c < 1)
+	else
 		_putchar('\n');
 }
