@@ -1,2 +1,2 @@
-printers arrays and strings
+printers arrays and strings.
 
