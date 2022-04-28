@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void _print_rev_recursion(char *s) - entry pt
+ * void _print_rev_recursion - entry pt
  * @s: input
  * Return: Return 0 success
  */
