@@ -1,5 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_
+#define _MAIN_
+
+int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
-#endif /* DOG_H */
+#endif
