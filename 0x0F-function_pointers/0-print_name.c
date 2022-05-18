@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * print_name - prints the name
- * @name: name
+ * @name: nam
+ * e
  * @f: function
  */
 void print_name(char *name, void (*f)(char *))
