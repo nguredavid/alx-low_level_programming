@@ -21,11 +21,10 @@ void p_string(va_list list)
 {
 	char *str;
 
-
 	str = va_arg(list, char*);
 	if (str == NULL)
 		str = "(nil)";
-	printf("%s", str);
+printf("%s", str);
 }
 /**
  * p_integer - print integer
@@ -35,7 +34,6 @@ void p_string(va_list list)
 
 void p_integer(va_list list)
 {
-
 	printf("%i", va_arg(list, int));
 }
 /**
@@ -66,7 +64,6 @@ void print_all(const char * const format, ...)
 	};
 	va_list valist;
 	char *s = "";
-
 
 	va_start(valist, format);
 	i = 0;
