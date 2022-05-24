@@ -4,16 +4,14 @@
  * print_number - prints an integer using putchar
  * @n: integer to print
  * return: none
- */
+ *      */
 void print_number(int n)
 {
 	int div, last_digit, tmp, lenght;
 
 
 	/* calcualating last digit */
-
 	last_digit = n % 10;
-
 	/* if negative print '-' and make last digit positive */
 	if (last_digit < 0)
 	{
