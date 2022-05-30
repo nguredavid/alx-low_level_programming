@@ -1,22 +1,26 @@
 #include "lists.h"
 /**
-* reverse_listint - reverses a listint
+* print_listint_safe - prints the circular linked list
 * @head: head
-* Return: Returns
+* Return: return
 */
-listint_t *reverse_listint(listint_t **head)
+size_t print_listint_safe(const listint_t *head)
 {
-listint_t *a;
-listint_t *b;
+size_t a;
+listint_t *b = (listint_t *)head;
 
 a = 0;
-while (*head != NULL)
+while (b && b > b->next)
 {
-b = (*head)->next;
-(*head)->next = a;
-a = (*head);
-(*head) = b;
+printf("[%p] %d\n", (void *)b, b->n);
+b = b->next;
+a++;
 }
-(*head) = a;
-return (*head);
+if (b)
+{
+printf("[%p] %d\n", (void *)b, b->n);
+printf("-> [%p] %d\n", (void *)b->next, b->next->n);
+a++;
+}
+return (a);
 }
