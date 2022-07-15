@@ -1,12 +1,12 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef _CODING_H_
+#define _CODING_H_
+#include <stdlib.h>
 
 /**
- *  * Structs, enums and unions definitions
- *   * Typedefs
- *    * Function prototypes
- *     */
-
+ * Structs, enums and unions definitions
+ * Typedefs
+ * Function prototypes
+ */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -21,6 +21,7 @@ char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
+int _strncmp(char *s1, char *s2);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
