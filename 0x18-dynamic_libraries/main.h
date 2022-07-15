@@ -1,5 +1,5 @@
-#ifndef _CODING_H_
-#define _CODING_H_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 #include <stdlib.h>
 
 /**
